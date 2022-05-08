@@ -1,0 +1,972 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="bootstrap-5.1.3-dist/js/popper.min.js"></script>
+  <script type="text/javascript" src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  <title>Varun Bootstrap Project</title>
+</head>
+
+<body>
+
+
+  <!-- Side Tooltip Div Starts Here!!! -->
+
+
+
+
+  <!-- <div class="tool-demo"> -->
+    <ul class="new-tool">
+      <li class="new-tool2">
+  <button type="button" class=" btn-tool btn-tool2" data-bs-toggle="tooltip" data-bs-placement="left" title="Presale Chat">
+    <i class="fa fa-bandcamp tool-icon" aria-hidden="true"></i>
+  </button>
+</li>
+<li class="new-tool2">
+  <button type="button" class=" btn-tool" data-bs-toggle="tooltip" data-bs-placement="left" title="Read Documentation">
+    <i class="fa fa-file-text-o tool-icon" aria-hidden="true"></i>
+  </button>
+  </li>
+  <li class="new-tool2">
+    <button type="button" class=" btn-tool" data-bs-toggle="tooltip" data-bs-placement="left" title="Watch Video Tutorials">
+      <i class="fa fa-video-camera tool-icon" aria-hidden="true"></i> 
+       </button>
+  </li>
+  <li class="new-tool2">
+    <button type="button" class=" btn-tool" data-bs-toggle="tooltip" data-bs-placement="left" title="Customer Showcase">
+      <i class="fa fa-heart-o tool-icon" aria-hidden="true"></i>
+    </button>
+    </li>
+    <li class="new-tool2">
+      <button type="button" class=" btn-tool" data-bs-toggle="tooltip" data-bs-placement="left" title="Join User Community">
+        <li><i class="fa fa-user-o tool-icon" aria-hidden="true"></i>
+      </button>
+    </li>
+    <li class="new-tool2">
+      <button type="button" class=" btn-tool btn-tool3" data-bs-toggle="tooltip" data-bs-placement="left" title="Purchase Sway">
+        <li><i class="fa fa-shopping-cart tool-icon" aria-hidden="true"></i>
+      </button>
+      </li>
+  </ul>
+  <!-- </div> -->
+
+
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
+
+
+
+
+
+    <!-- Side Tooltip Div ends Here!!! -->
+
+
+
+
+  <!-- Navigation Bar Starts Here!!!! -->
+
+
+
+
+  <!-- <div class="container"> -->
+  <div class="row row1">
+    <div class="col-auto col1">
+      <img src="Images/phone.png" width="18px" height="18px" alt="Phone">
+      <span id="id1">+1 212 946 2700</span>
+    </div>
+    <div class="col-auto col1">
+      <img src="Images/envelope.png" width="18px" height="18px" alt="envolope">
+      <span id="id1">hello@swaytheme.com</span>
+    </div>
+    <div class="col-auto col1">
+      <img src="Images/clock.png" width="18px" height="18px" alt="Clock">
+      <span id="id1">Mon - Fri:9:00 - 18:00</span>
+    </div>
+    <div class="col-auto col2 ms-auto">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+    </div>
+    <div class="col-auto col2">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <div class="col-auto col2">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+    </div>
+  </div>
+
+  <!-- </div> -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light main-cont2">
+    <div class="container-fluid main-cont">
+      <a class="navbar-brand logo" href="index.html">SWAY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item main-list">
+            <a class="nav-link active" aria-current="page" href="index.html">Home
+              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+            </a>
+          </li>
+          <li class="nav-item main-list">
+            <a class="nav-link active" aria-current="page" href="AboutUs.html">About Us
+              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+            </a>
+          </li>
+          <li class="nav-item main-list">
+            <a class="nav-link active" aria-current="page" href="ContactUs.html">Contact Us
+              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+            </a>
+          </li>
+          <li class="nav-item main-list">
+            <a class="nav-link active" aria-current="page" href="Blog.html">Blog
+              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="Images/en-flag.png" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">
+                  <img src="Images/en-flag.png" alt="">
+                  English
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <img src="Images/fr-flag.png" alt="">
+                  Francis
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <img src="Images/de-flag.png" alt="">
+                  Germany
+                </a></li>
+            </ul>
+          </li>
+
+
+        </ul>
+        <form class="d-flex">
+
+          <button class="btn btn1" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Navigation Bar Ends Here!!!! -->
+
+
+ 
+
+  <!-- Main Image Carousel starts here!!! -->
+
+
+
+  <div class="inner">
+
+    <div class="main-info">
+      <h1 id="id2">Enterprise-Class IT Support</h1><br>
+
+      <p id="id3">We start by developing a network infrastructure that supports fast connection
+        speeds and grows with you as your business expands</p><br><br>
+
+      <button class="btn btn2" type="submit">Get Started ></button>
+    </div>
+
+    <div class="play">
+      <i class="fa fa-play play-icon fa-2x" aria-hidden="true"></i>
+    </div>
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner outer">
+        <div class="carousel-item active">
+          <div class="container">
+            <div class="row">
+              <div class="col slide-img">
+                <img src="Images/Nike-White.png" class="brand" height="40px" alt="...">
+              </div>
+              <div class="col slide-img">
+                <img src="Images/Spotify-White.png" class="brand" height="40px" alt="...">
+              </div>
+              <div class="col slide-img">
+                <img src="Images/Google-White.png" class="brand" height="40px" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <div class="container">
+            <div class="row">
+              <div class="col slide-img">
+                <img src="Images/Apple-White.png" class="brand" height="40px" alt="...">
+              </div>
+              <div class="col slide-img">
+                <img src="Images/Amazon-White2.png" class="brand" height="40px" alt="...">
+              </div>
+              <div class="col slide-img">
+                <img src="Images/Airbnb-White.png" class="brand" height="40px" alt="...">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div>
+
+
+
+  <!-- Main Image Carousel ends here!!! -->
+
+
+
+  <!-- 3 Card Starts Here!!!! -->
+
+
+
+  <div class="main2-head">
+    <p id="id4">HIGH-LEVEL TECHNOLOGY FOR SMALL AND LARGE BUSINESS
+    </p>
+
+    <h1 id="id5">It's all about connecting with your customers<br>
+      we make sure it happens</h1>
+
+  </div>
+
+
+
+  <!-- <div class="container cont1"> -->
+  <div class="row row2">
+    <div class="col-12 col-lg-4 col3">
+      <div class="card card2" style="width: 100%;">
+        <div class="imgbod">
+          <img src="Images/photobox-1.jpg" class="card-img-top img2" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title id6">IT Service Management</h5>
+          <p class="card-text id7">Shift your IT spend from legacy to leading edge. Modern application deliver the
+            experience customers want and the results you need</p>
+          <a href="#" class="lmlink">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 col3">
+      <div class="card card2" style="width: 100%;">
+        <div class="imgbod">
+          <img src="Images/photobox-2.jpg" class="card-img-top img2" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title id6">Application Services</h5>
+          <p class="card-text id7">Shift your IT spend from legacy to leading edge. Modern application deliver the
+            experience customers want and the results you need</p>
+          <a href="#" class="lmlink">Learn More</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4 col3">
+      <div class="card card2" style="width: 100%;">
+        <div class="imgbod">
+          <img src="Images/photobox-3.jpg" class="card-img-top img2" alt="...">
+        </div>
+        <div class="card-body">
+          <h5 class="card-title id6">Support & Maintenance Services</h5>
+          <p class="card-text id7">Shift your IT spend from legacy to leading edge. Modern application deliver the
+            experience customers want and the results you need</p>
+          <a href="#" class="lmlink">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+  
+
+
+  <div class="carbtn">
+
+    <button id="id8">
+      <i class="fa fa-arrow-left" aria-hidden="true"></i>
+    </button>
+    <button id="id8">
+      <i class="fa fa-arrow-right" aria-hidden="true"></i>
+    </button>
+  </div>
+  <br>
+  <br>
+  <hr style="margin-left: 40px; margin-right: 40px;">
+
+
+
+  <!-- 3 Card Ends Here!!!! -->
+
+
+
+
+
+  <!-- laptop1 position starts here!!! -->
+
+
+
+  <!-- <div class="container"> -->
+  <div class="row row3">
+    <div class="col-12 col-lg-6 col4">
+      <p id="id9">Digital transformation drives success in a cloud-first world
+      </p><br>
+      <p id="id10">We deliver transformative digital offerings that help customers harness the power of innovation by
+        creating new ways of connecting people, data and processes.
+      </p><br><br>
+      <button class="btn btn3" type="submit">Get Started ></button><br><br><br>
+    </div>
+    <div class="col-12 col-lg-6 col5">
+      <div class="inpos">
+        <img src="Images/it-service-1.jpg" class="img3" width="80%" height="80%" alt="">
+        <img src="Images/it-service-3.png" id="id11" alt="">
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+
+
+
+  <!-- laptop1 position ends here!!! -->
+
+
+
+
+
+  <!-- 3 Position Card Starts Here!!!! -->
+
+
+
+  <!-- <div class="container"> -->
+  <div class="row row4">
+    <div class="col-12 col-md-6 col-lg-3 col6">
+      <div class="card card3" style="width: 18rem;">
+        <div class="icon-div">
+          <i class="fa fa-hdd-o fa-3x id12" aria-hidden="true"></i>
+        </div><br>
+        <div class="card-body">
+          <h5 class="card-title id13">Data Analytics</h5>
+          <br>
+          <p class="card-text id7">We help you develop apps to deliver digital services and technology.
+          </p><br>
+          <a href="#" class="lmlink2">Learn More</a>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-6 col-lg-3 col6">
+      <div class="card card4" style="width: 18rem;">
+        <div class="icon-div">
+          <i class="fa fa-laptop fa-3x id12" aria-hidden="true"></i>
+        </div><br>
+        <div class="card-body">
+          <h5 class="card-title id13">IT Consulting
+          </h5>
+          <br>
+          <p class="card-text id7">We help you develop apps to deliver digital services and technology.
+          </p><br>
+          <a href="#" class="lmlink2">Learn More</a>
+          <br>
+        </div>
+      </div>
+      <div class="card card4" style="width: 18rem;">
+        <div class="icon-div">
+          <i class="fa fa-cloud-upload fa-3x id12" aria-hidden="true"></i>
+        </div><br>
+        <div class="card-body">
+          <h5 class="card-title id13">Cloud Applications
+          </h5>
+          <br>
+          <p class="card-text id7">We help you develop apps to deliver digital services and technology.
+          </p><br>
+          <a href="#" class="lmlink2">Learn More</a>
+          <br>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-md-12 col-lg-6 col7">
+      <p id="id9">We help you build and scale new digital capabilities
+      </p><br>
+      <p id="id10">We focus on business process design and strategize and implement policies for continuous improvement
+        and automation. Our structured approach to IT consulting includes:
+      </p><br>
+
+      <table>
+        <tr>
+          <td><i class="fa fa-check-circle fa-2x id14" aria-hidden="true"></i></td>
+          <td style="padding-left:15px;">
+            <p id="id10">10,000 DevOps and agile experts </p>
+          </td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-check-circle fa-2x id14" aria-hidden="true"></i></td>
+          <td style="padding-left:15px;">
+            <p id="id10">Flexible consumption-based pricing models
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-check-circle fa-2x id14" aria-hidden="true"></i></td>
+          <td style="padding-left:15px;">
+            <p id="id10">Online strategy and consulting services
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td><i class="fa fa-check-circle fa-2x id14" aria-hidden="true"></i></td>
+          <td style="padding-left:15px;">
+            <p id="id10">1 million applications under management
+            </p>
+          </td>
+        </tr>
+      </table>
+      <br><br>
+
+      <button class="btn btn3" type="submit">Our Services ></button>
+
+
+    </div>
+  </div>
+  <!-- </div> -->
+
+
+
+  <!-- 3 Position Card Ends Here!!!! -->
+
+
+
+
+  <!-- 4 Circle Coloum starts here!!!! -->
+
+
+
+  <!-- <div class="container"> -->
+  <div class="row row5">
+    <div class="col-12 col-lg-8 col8">
+      <h1 id="id15">Modernizing IT & data architecture
+      </h1><br>
+      <p id="id16">We provide processes to ensure the services are delivered in a customer-focused,<br>
+        quality-driven and economical way.</p>
+    </div>
+    <div class="col-12 col-lg-4 col9">
+      <button class="btn btn4" type="submit">View Process ></button>
+    </div>
+  </div>
+  <!-- </div> -->
+
+
+
+  <div class="row row6">
+    <div class="col-12 col-lg-3 col10 ">
+      <div class="circle-blue">
+        <p id="id17">1</p>
+      </div>
+      <br><br>
+      <h5 class="card-title id13">Strategy</h5><br>
+      <p id="id18">The first step involves an onsite visit from a computer works expert.
+      </p>
+    </div>
+    <div class="col-12 col-lg-3 col10">
+      <div class="circle-blue">
+        <p id="id17">2</p>
+      </div>
+      <br><br>
+      <h5 class="card-title id13">Design</h5><br>
+      <p id="id18">The first step involves an onsite visit from a computer works expert.
+      </p>
+    </div>
+    <div class="col-12 col-lg-3 col10">
+      <div class="circle-blue">
+        <p id="id17">3</p>
+      </div>
+      <br><br>
+      <h5 class="card-title id13">Operation</h5><br>
+      <p id="id18">The first step involves an onsite visit from a computer works expert.
+      </p>
+    </div>
+    <div class="col-12 col-lg-3 col10">
+      <div class="circle-blue">
+        <p id="id17">4</p>
+      </div>
+      <br><br>
+      <h5 class="card-title id13">Launch</h5><br>
+      <p id="id18">The first step involves an onsite visit from a computer works expert.
+      </p>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+
+
+
+
+    <!-- 4 Circle Coloum ends here!!!! -->
+
+
+
+
+
+  <!-- 3 Link Carousal Starts Here!!!! -->
+
+
+  <div class="tab-pan">
+  <ul class="nav mb-3 justify-content-center" id="pills-tab" role="tablist">
+    <li class="nav-item" role="presentation">
+      <button class="nav-link tab-style" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">IT Consulting and Services</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link tab-style" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Infrastructure Optimization</button>
+    </li>
+    <li class="nav-item" role="presentation">
+      <button class="nav-link tab-style" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">DevOps Solution</button>
+    </li>
+  </ul>
+  </div>
+
+
+
+
+
+
+  <div class="tab-content" id="pills-tabContent">
+
+    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+       <!-- <div class="container"> -->
+  <div class="row row3">
+    <div class="col-12 col-lg-6 col5">
+      <div class="inpos">
+        <img src="Images/it-service6.jpg" class="img3" width="80%" height="80%" alt="">
+        <div class="play2">
+          <i class="fa fa-play play-icon2 fa-2x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 col4">
+      <p id="id20">IT CONSULTING AND SERVICES</p>
+      <p id="id9">Execute IT strategies that drive business growth
+      </p><br>
+      <p id="id10">We develop innovative strategies and solutions that help you make the most of your technology
+        investments to
+        drive competitive advantage.
+      </p><br><br>
+      <button class="btn btn3" type="submit">Learn More ></button><br><br><br>
+    </div>
+  </div> 
+  <!-- </div>-->
+    </div>
+
+
+
+    <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+       <!-- <div class="container"> -->
+  <div class="row row3">
+    <div class="col-12 col-lg-6 col5">
+      <div class="inpos">
+        <img src="Images/it-service-1.jpg" class="img3" width="80%" height="80%" alt="">
+        <div class="play2">
+          <i class="fa fa-play play-icon2 fa-2x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 col4">
+      <p id="id20">INFRASTRUCTURE OPTIMIZATION</p>
+      <p id="id9">Optimizing data infrastructure to improve performance
+      </p><br>
+      <p id="id10">We develop innovative strategies and solutions that help you make the most of your technology
+        investments to
+        drive competitive advantage.
+      </p><br><br>
+      <button class="btn btn3" type="submit">Learn More ></button><br><br><br>
+    </div>
+  </div> 
+  <!-- </div>-->
+    </div>
+
+
+
+    <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
+       <!-- <div class="container"> -->
+  <div class="row row3">
+    <div class="col-12 col-lg-6 col5">
+      <div class="inpos">
+        <img src="Images/it-service6.jpg" class="img3" width="80%" height="80%" alt="">
+        <div class="play2">
+          <i class="fa fa-play play-icon2 fa-2x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 col4">
+      <p id="id20">DEVOPS SOLUTIONS</p>
+      <p id="id9">Your dedicated & managed Cloud Native infrastructure
+      </p><br>
+      <p id="id10">We develop innovative strategies and solutions that help you make the most of your technology
+        investments to
+        drive competitive advantage.
+      </p><br><br>
+      <button class="btn btn3" type="submit">Learn More ></button><br><br><br>
+    </div>
+  </div> 
+  <!-- </div>-->
+    </div>
+
+  </div>
+
+
+
+
+
+
+
+  <!-- <div class="min-nav">
+    <p id="id19">IT Consulting and Services</p>
+    <p id="id19">Infrastructure Optimization</p>
+    <p id="id19">DevOps Solution</p>
+
+  </div>  -->
+
+
+
+  <!-- <div class="container"> -->
+  <!-- <div class="row row3">
+    <div class="col-12 col-lg-6 col5">
+      <div class="inpos">
+        <img src="Images/it-service6.jpg" class="img3" width="80%" height="80%" alt="">
+        <div class="play2">
+          <i class="fa fa-play play-icon2 fa-2x" aria-hidden="true"></i>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-6 col4">
+      <p id="id20">IT CONSULTING AND SERVICES</p>
+      <p id="id9">Execute IT strategies that drive business growth
+      </p><br>
+      <p id="id10">We develop innovative strategies and solutions that help you make the most of your technology
+        investments to
+        drive competitive advantage.
+      </p><br><br>
+      <button class="btn btn3" type="submit">Learn More ></button><br><br><br>
+    </div>
+  </div>  -->
+  <!-- </div>-->
+  <!-- <br>
+  <br> -->
+
+
+
+    <!-- 3 Link Carousal ends Here!!!! -->
+
+
+
+  <hr style="margin-left: 40px; margin-right: 40px;">
+
+
+
+
+  <!-- 3 Card Info starts Here!!! -->
+
+
+
+
+  <div class="main3-head head-margin">
+
+    <h1 id="id5">News, updates, trends and the latest
+      <br>
+      info you need to know about IT
+    </h1>
+
+  </div>
+
+
+
+
+  <div class="row row7">
+    <div class="col-12 col-lg-4">
+      <div class="card card5" style="width: 100%;">
+        <div class="card-body">
+          <p id="id21">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            Business
+          </p>
+          <h5 class="card-title id13">Problems everyone has when working remotely and how to solve them
+          </h5><br>
+          <p class="card-text id22">
+            <i class="fa fa-clock-o id23" aria-hidden="true"></i>
+            July 29, 2020 <i class="fa fa-pencil id23" aria-hidden="true"></i>admin
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="card card5" style="width: 100%;">
+        <div class="card-body">
+          <p id="id21">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            Design
+          </p>
+          <h5 class="card-title id13">The best remote UX and UI design conferences to attend in 2020
+          </h5><br>
+          <p class="card-text id22">
+            <i class="fa fa-clock-o id23" aria-hidden="true"></i>
+            July 29, 2020 <i class="fa fa-pencil id23" aria-hidden="true"></i>admin
+          </p>
+        </div>
+      </div>
+    </div>
+    <div class="col-12 col-lg-4">
+      <div class="card card5" style="width: 100%;">
+        <div class="card-body">
+          <p id="id21">
+            <i class="fa fa-circle" aria-hidden="true"></i>
+            Software
+          </p>
+          <h5 class="card-title id13">Are enterprise teams the next big thing in the freelance revolution?
+          </h5><br>
+          <p class="card-text id22">
+            <i class="fa fa-clock-o id23" aria-hidden="true"></i>
+            July 29, 2020 <i class="fa fa-pencil id23" aria-hidden="true"></i>admin
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <div class="solo-btn">
+    <button class="btn btn3" type="submit">Learn More ></button>
+  </div>
+
+
+
+
+    <!-- 3 Card Info ends Here!!! -->
+
+
+
+
+  <!-- Image And Form Section Starts Here!!!! -->
+
+
+
+
+
+  <!-- <div class="container"> -->
+  <div class="row row8">
+    <div class="col-12 col11 col12">
+
+      <h1 id="id24">Contact us today if you'd like to know more<br>
+        about how we keep your data secure
+      </h1><br>
+      <p id="id10">Sway is a global technology consulting and services company, helping enterprises<br>
+        marry scale with agility to achieve competitive advantage.
+      </p>
+    </div>
+
+    <div class="col-12 col-lg-6 col11">
+      <img src="Images/it-service-5.png" alt="">
+    </div>
+
+    <div class="col-12 col-lg-6 col11">
+      <div class="card card6" style="width: 90%;">
+        <div class="card-body">
+          <h5 class="card-title id13">We'd love to talk about your project
+          </h5><br>
+          <p class="card-text id25">Our experts and developers would love to contribute their
+            expertise and insights to your potencial projects</p>
+          <input id="id26" type="text" placeholder="Enter your name"><br>
+          <input id="id26" type="email" placeholder="Enter your email"><br>
+          <input id="id26" class="textarea" type="textarea" placeholder="Your message"><br>
+          <a href="#" class="btn btn-primary btn5">Submit</a>
+          <br>
+          <br>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- </div> -->
+
+
+
+    <!-- Image And Form Section Ends Here!!!! -->
+
+
+
+
+  <!-- Footer Starts Here!!! -->
+
+
+  <footer>
+
+  <ul class="nav foot-nav">
+    <li class="nav-item">
+      <a class="nav-link id27" aria-current="page" href="#">About</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link id27" href="#">Services</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link id27" href="#">Pricing Plan</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link id27" href="#">Privacy</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link id27" href="#">Contact Us</a>
+    </li>
+
+    <li class="nav-item icon-3 ms-auto">
+      <a class="nav-link id28" href="#">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="nav-item icon-3 ">
+      <a class="nav-link id28" href="#">
+        <i class="fa fa-linkedin" aria-hidden="true"></i>
+      </a>
+    </li>
+    <li class="nav-item icon-3 ">
+      <a class="nav-link id28" href="#">
+        <i class="fa fa-twitter" aria-hidden="true"></i>
+      </a>
+    </li>
+  </ul>
+
+
+  <!-- <div class="container"> -->
+    <div class="row row9">
+      <div class="col-12 col-lg-3 col13">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active id29 id32" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">About Sway</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Plan & Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-3 col13">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active id29 id32" aria-current="page" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Primary blocks
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Content blocks
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Infographic blocks
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Business blocks
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-3 col13">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active id29 id32" aria-current="page" href="#">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Support center
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Documentation
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Newsletter
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Changelog
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-3 col13">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active id29 id32" aria-current="page" href="#">Follow us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Twitter
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Dribbble
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Facebook
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  <!-- </div> -->
+
+  <hr style="margin-left: 40px; margin-right: 40px; margin-top: 70px; color: lightgray;">
+
+  <div class="row">
+    <div class="col-12 col14">
+      <p id="id30">Sway by KeyDesign. All Rights Reserved. </p>
+      <a class="nav-link id31" href="#">Terms of Use</a>
+      <a class="nav-link id31" href="#">Privacy Policy</a>
+
+
+    </div>
+
+
+  </footer>
+
+
+
+
+    <!-- Footer Ends Here!!! -->
+
+
+
+
+
+</body>
+
+</html>

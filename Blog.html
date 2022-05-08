@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="bootstrap-5.1.3-dist/css/bootstrap.min.css">
+  <script type="text/javascript" src="bootstrap-5.1.3-dist/js/popper.min.js"></script>
+  <script type="text/javascript" src="bootstrap-5.1.3-dist/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="Style.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.min.css">
+  <title>Varun Bootstrap Project</title>
+</head>
+
+<body>
+
+
+  <!-- Side Tooltip Div Starts Here!!! -->
+
+
+
+
+  <!-- <div class="tool-demo"> -->
+    <ul class="new-tool">
+      <li class="new-tool2">
+  <button type="button" class=" btn-tool btn-tool2" data-bs-toggle="tooltip" data-bs-placement="left" title="Presale Chat">
+    <i class="fa fa-bandcamp tool-icon" aria-hidden="true"></i>
+  </button>
+</li>
+<li class="new-tool2">
+  <button type="button" class=" btn-tool" data-bs-toggle="tooltip" data-bs-placement="left" title="Read Documentation">
+    <i class="fa fa-file-text-o tool-icon" aria-hidden="true"></i>
+  </button>
+  </li>
+  <li class="new-tool2">
+    <button type="button" class=" btn-tool" data-bs-toggle="tooltip" data-bs-placement="left" title="Watch Video Tutorials">
+      <i class="fa fa-video-camera tool-icon" aria-hidden="true"></i> 
+       </button>
+  </li>
+  <li class="new-tool2">
+    <button type="button" class=" btn-tool" data-bs-toggle="tooltip" data-bs-placement="left" title="Customer Showcase">
+      <i class="fa fa-heart-o tool-icon" aria-hidden="true"></i>
+    </button>
+    </li>
+    <li class="new-tool2">
+      <button type="button" class=" btn-tool" data-bs-toggle="tooltip" data-bs-placement="left" title="Join User Community">
+        <li><i class="fa fa-user-o tool-icon" aria-hidden="true"></i>
+      </button>
+    </li>
+    <li class="new-tool2">
+      <button type="button" class=" btn-tool btn-tool3" data-bs-toggle="tooltip" data-bs-placement="left" title="Purchase Sway">
+        <li><i class="fa fa-shopping-cart tool-icon" aria-hidden="true"></i>
+      </button>
+      </li>
+  </ul>
+  <!-- </div> -->
+
+
+  <script>
+    var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+    var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+      return new bootstrap.Tooltip(tooltipTriggerEl)
+    })
+    </script>
+
+
+  <!-- Side Tooltip Div ends Here!!! -->
+
+
+
+
+  <!-- Navigation Bar Starts Here!!!! -->
+
+
+
+
+  <!-- <div class="container"> -->
+  <div class="row row1">
+    <div class="col-auto col1">
+      <img src="Images/phone.png" width="18px" height="18px" alt="Phone">
+      <span id="id1">+1 212 946 2700</span>
+    </div>
+    <div class="col-auto col1">
+      <img src="Images/envelope.png" width="18px" height="18px" alt="envolope">
+      <span id="id1">hello@swaytheme.com</span>
+    </div>
+    <div class="col-auto col1">
+      <img src="Images/clock.png" width="18px" height="18px" alt="Clock">
+      <span id="id1">Mon - Fri:9:00 - 18:00</span>
+    </div>
+    <div class="col-auto col2 ms-auto">
+      <i class="fa fa-facebook" aria-hidden="true"></i>
+    </div>
+    <div class="col-auto col2">
+      <i class="fa fa-linkedin" aria-hidden="true"></i>
+    </div>
+    <div class="col-auto col2">
+      <i class="fa fa-twitter" aria-hidden="true"></i>
+    </div>
+  </div>
+
+  <!-- </div> -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light main-cont2">
+    <div class="container-fluid main-cont">
+      <a class="navbar-brand logo" href="index.html">SWAY</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <li class="nav-item main-list">
+            <a class="nav-link active" aria-current="page" href="index.html">Home
+              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+            </a>
+          </li>
+          <li class="nav-item main-list">
+            <a class="nav-link active" aria-current="page" href="AboutUs.html">About Us
+              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+            </a>
+          </li>
+          <li class="nav-item main-list">
+            <a class="nav-link active" aria-current="page" href="ContactUs.html">Contact Us
+              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+            </a>
+          </li>
+          <li class="nav-item main-list">
+            <a class="nav-link active" aria-current="page" href="Blog.html">Blog
+              <!-- <i class="fa fa-caret-down" aria-hidden="true"></i> -->
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <img src="Images/en-flag.png" alt="">
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="#">
+                  <img src="Images/en-flag.png" alt="">
+                  English
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <img src="Images/fr-flag.png" alt="">
+                  Francis
+                </a></li>
+              <li><a class="dropdown-item" href="#">
+                  <img src="Images/de-flag.png" alt="">
+                  Germany
+                </a></li>
+            </ul>
+          </li>
+
+
+        </ul>
+        <form class="d-flex">
+
+          <button class="btn btn1" type="submit">Sign Up</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <!-- Navigation Bar Ends Here!!!! -->
+
+
+
+
+  <div class="main-bc2">
+    <p id="id33">Latest news and ideas from our team</p>
+    <p id="id48">This is where you can find the latest news and insights about Sway — new products,<br> in-depth
+      interviews and successfully finished projects. Never miss a beat.</p>
+    <br><br>
+    <p class="min-bc">Home > Latest news and ideas from our team</p>
+  </div>
+
+
+
+
+
+  <!-- <div class="container"> -->
+  <div class="row row17">
+    <div class="col-12 col-lg-8 col20">
+      <div class="card card12">
+        <div class="card-body card-p">
+          <img id="id49" src="Images/page_blog_standard_1.webp" width="100%" alt="">
+          <br><br>
+          <i class="fa fa-clock-o icon6" aria-hidden="true"></i>
+          <p id="id50">July 29, 2020</p>
+          <i class="fa fa-pencil icon6" aria-hidden="true"></i>
+          <p id="id50">Sway</p>
+          <i class="fa fa-newspaper-o icon6" aria-hidden="true"></i>
+          <p id="id50">Business</p>
+          <i class="fa fa-comment-o icon6" aria-hidden="true"></i>
+          <p id="id50">3 Comments</p>
+          <p id="id51">Problems everyone has when working remotely and how to solve them</p>
+          <br>
+          <p id="id52">Progressively maintain extensive infomediaries via extensible niches. Dramatically
+            disseminate standardized metrics after resource-leveling processes. Objectively pursue diverse
+            catalysts for<br> change for interoperable meta-services.</p>
+          <br>
+          <button class="btn btn3" type="submit">Read More ></button>
+          <br><br>
+        </div>
+      </div>
+
+
+
+      <div class="card card12">
+        <div class="card-body card-p">
+          <img id="id49" src="Images/page_blog_standard_2.webp" width="100%" alt="">
+          <br><br>
+          <i class="fa fa-clock-o icon6" aria-hidden="true"></i>
+          <p id="id50">July 29, 2020</p>
+          <i class="fa fa-pencil icon6" aria-hidden="true"></i>
+          <p id="id50">Sway</p>
+          <i class="fa fa-newspaper-o icon6" aria-hidden="true"></i>
+          <p id="id50">Design</p>
+          <i class="fa fa-comment-o icon6" aria-hidden="true"></i>
+          <p id="id50">3 Comments</p>
+          <p id="id51">The best remote UX and UI design conferences to attend in 2020</p>
+          <br>
+          <p id="id52">Dynamically reinvent market-driven opportunities and ubiquitous interfaces.
+            Energistically fabricate an expanded array of niche markets through robust products.
+            Appropriately implement visionary e-services vis-a-vis strategic web-readiness.</p>
+          <br>
+          <button class="btn btn3" type="submit">Read More ></button>
+          <br><br>
+        </div>
+      </div>
+
+
+      <div class="card card12">
+        <div class="card-body card-p">
+          <img id="id49" src="Images/page_blog_standard_3-1.webp" width="100%" alt="">
+          <br><br>
+          <i class="fa fa-clock-o icon6" aria-hidden="true"></i>
+          <p id="id50">July 29, 2020</p>
+          <i class="fa fa-pencil icon6" aria-hidden="true"></i>
+          <p id="id50">Sway</p>
+          <i class="fa fa-newspaper-o icon6" aria-hidden="true"></i>
+          <p id="id50">Development</p>
+          <i class="fa fa-comment-o icon6" aria-hidden="true"></i>
+          <p id="id50">3 Comments</p>
+          <p id="id51">How can you help your team transition to remote with this essential guide</p>
+          <br>
+          <p id="id52">Objectively integrate enterprise-wide strategic theme areas with functionalized
+            infrastructures. Interactively productize premium technologies whereas interdependent quality
+            vectors. Rapaciously utilize enterprise experiences.</p>
+          <br>
+          <button class="btn btn3" type="submit">Read More ></button>
+          <br><br>
+        </div>
+      </div>
+
+
+
+      <div class="card card12">
+        <div class="card-body card-p">
+          <img id="id49" src="Images/blog-modern-1024x563.jpg" width="100%" alt="">
+          <br><br>
+          <i class="fa fa-clock-o icon6" aria-hidden="true"></i>
+          <p id="id50">July 29, 2020</p>
+          <i class="fa fa-pencil icon6" aria-hidden="true"></i>
+          <p id="id50">Sway</p>
+          <i class="fa fa-newspaper-o icon6" aria-hidden="true"></i>
+          <p id="id50">Software</p>
+          <i class="fa fa-comment-o icon6" aria-hidden="true"></i>
+          <p id="id50">3 Comments</p>
+          <p id="id51">Are enterprise teams the next big thing in the freelance revolution?</p>
+          <br>
+          <p id="id52">Progressively maintain extensive infomediaries via extensible niches. Dramatically
+            disseminate standardized metrics after resource-leveling processes. Objectively pursue diverse
+            catalysts for change for interoperable meta-services.</p>
+          <br>
+          <button class="btn btn3" type="submit">Read More ></button>
+          <br><br>
+        </div>
+      </div>
+
+
+
+      <div class="card card12">
+        <div class="card-body card-p">
+          <img id="id49" src="Images/page_blog_standard_7.jpg" width="100%" alt="">
+          <br><br>
+          <i class="fa fa-clock-o icon6" aria-hidden="true"></i>
+          <p id="id50">July 29, 2020</p>
+          <i class="fa fa-pencil icon6" aria-hidden="true"></i>
+          <p id="id50">Sway</p>
+          <i class="fa fa-newspaper-o icon6" aria-hidden="true"></i>
+          <p id="id50">Technology</p>
+          <i class="fa fa-comment-o icon6" aria-hidden="true"></i>
+          <p id="id50">3 Comments</p>
+          <p id="id51">How to make the most of a nontraditional startup community</p>
+          <br>
+          <p id="id52">Globally incubate standards compliant channels before scalable benefits. Quickly
+            disseminate superior deliverables whereas web-enabled applications. Quickly drive
+            clicks-and-mortar catalysts for change before vertical architectures.</p>
+          <br>
+          <button class="btn btn3" type="submit">Read More ></button>
+          <br><br>
+        </div>
+      </div>
+
+
+
+      <div class="card card12">
+        <div class="card-body card-p">
+          <img id="id49" src="Images/blog-modern2-1024x563.jpg" width="100%" alt="">
+          <br><br>
+          <i class="fa fa-clock-o icon6" aria-hidden="true"></i>
+          <p id="id50">July 29, 2020</p>
+          <i class="fa fa-pencil icon6" aria-hidden="true"></i>
+          <p id="id50">Sway</p>
+          <i class="fa fa-newspaper-o icon6" aria-hidden="true"></i>
+          <p id="id50">General</p>
+          <i class="fa fa-comment-o icon6" aria-hidden="true"></i>
+          <p id="id50">3 Comments</p>
+          <p id="id51">The most important design jobs for the rest of 2020: product designer</p>
+          <br>
+          <p id="id52">Premium technologies whereas interdependent quality vectors. Rapaciously utilize
+            enterprise experiences via 24/7 markets. Uniquely matrix economically sound value through
+            cooperative technology. Competently parallel task fully researched.</p>
+          <br>
+          <button class="btn btn3" type="submit">Read More ></button>
+          <br><br>
+        </div>
+      </div>
+
+    </div>
+
+
+
+    <div class="col-12 col-lg-4 col21">
+      <div class="card card13">
+        <div class="card-body">
+          <p id="id53">Search</p>
+          <input id="id54" type="text" placeholder="Search...">
+          <br><br>
+          <hr>
+          <p id="id53">Categories</p>
+          <p id="id55">Business</p>
+          <p id="id55">Design</p>
+          <p id="id55">Development</p>
+          <p id="id55">General</p>
+          <p id="id55">Science</p>
+          <p id="id55">Software</p>
+          <p id="id55">Technology</p>
+          <br>
+          <hr>
+          <p id="id53">Recent Posts</p>
+
+          <div class="small-div">
+            <div class="in-img">
+              <img class="small-img" src="Images/page_blog_standard_1-150x150.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="in-info">
+              <p id="id56">Problem everyone has when working remotely and how to solve them</p>
+            </div>
+          </div>
+
+          <div class="small-div">
+            <div class="in-img">
+              <img class="small-img" src="Images/page_blog_standard_2-150x150.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="in-info">
+              <p id="id56">The best remote UX and UI design conference to attend in 2021</p>
+            </div>
+          </div>
+
+          <div class="small-div">
+            <div class="in-img">
+              <img class="small-img" src="Images/page_blog_standard_3-1-150x150.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="in-info">
+              <p id="id56">How can you help your team transition to remove with this essential guide
+              </p>
+            </div>
+          </div>
+
+          <div class="small-div">
+            <div class="in-img">
+              <img class="small-img" src="Images/blog-modern-150x150.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="in-info">
+              <p id="id56">Are enterprise team the next big thing in the freelance revolution?
+              </p>
+            </div>
+          </div>
+
+          <div class="small-div">
+            <div class="in-img">
+              <img class="small-img" src="Images/page_blog_standard_7-150x150.jpg" width="100%" height="100%" alt="">
+            </div>
+            <div class="in-info">
+              <p id="id56">How to make the most of a nontraditional startup community
+              </p>
+            </div>
+          </div>
+          <br>
+
+          <hr>
+
+          <p id="id53">Tags</p>
+
+          <div class="semi-div"><i class="fa fa-circle" aria-hidden="true"></i>
+            Creative (4)</div>
+
+          <div class="semi-div"><i class="fa fa-circle" aria-hidden="true"></i>
+            Internet (4)</div>
+
+          <div class="semi-div"><i class="fa fa-circle" aria-hidden="true"></i>
+            Marketing (3)</div>
+
+          <div class="semi-div"><i class="fa fa-circle" aria-hidden="true"></i>
+            Mobile (4)</div>
+
+          <div class="semi-div"><i class="fa fa-circle" aria-hidden="true"></i>
+            Popular (3)</div>
+
+          <div class="semi-div"><i class="fa fa-circle" aria-hidden="true"></i>
+            Startup (3)</div>
+
+
+          <hr>
+
+          <p id="id53">Follow Us</p>
+
+          <div class="circle-icon">
+            <i class="fa fa-facebook icon7" aria-hidden="true"></i>
+          </div>
+          <div class="circle-icon">
+            <i class="fa fa-twitter icon7" aria-hidden="true"></i>
+          </div>
+          <div class="circle-icon">
+            <i class="fa fa-instagram icon7" aria-hidden="true"></i>
+          </div>
+          <br>
+          <br>
+          <hr>
+          <br>
+
+
+          <div class="subcribe">
+            <p id="id57">News, Insights & Events
+            </p>
+            <p id="id58">Subscribe to our newsletter and<br> stay updated on the latest news</p>
+            <br>
+            <button class="btn btn1" type="submit">Subscribe</button>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-- <div class="sub-email">
+        <img id="id59" src="Images/newsletter.png" width="50%" height="122%" alt="">
+
+    </div> -->
+
+
+
+  <!-- <div class="container"> -->
+  <div class="row row18">
+    <div class="col-12 col-lg-6 col22">
+      <p id="id60">Subscribe to our newsletter
+      </p>
+      <p id="id61">Sign up to our newsletter to receive our latest news and products.
+        Stay updated on the latest developments and special offers!</p>
+      <br>
+      <input id="id62" type="text" placeholder="Enter Your Name">
+      <button class="btn btn3" type="submit">Subscribe</button>
+      <br><br><br>
+
+      <input type="checkbox">
+      <label id="id63">I agree to my email being stored and used to receive the newsletter.</label>
+    </div>
+    <div class="col-12 col-lg-6 col23">
+      <img id="id59" src="Images/newsletter.png" width="100%" height="100%" alt="">
+    </div>
+  </div>
+  <!-- </div> -->
+
+
+
+  <!-- Footer Starts Here!!! -->
+
+
+  <footer>
+
+    <ul class="nav foot-nav">
+      <li class="nav-item">
+        <a class="nav-link id27" aria-current="page" href="#">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link id27" href="#">Services</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link id27" href="#">Pricing Plan</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link id27" href="#">Privacy</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link id27" href="#">Contact Us</a>
+      </li>
+
+      <li class="nav-item icon-3 ms-auto">
+        <a class="nav-link id28" href="#">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item icon-3 ">
+        <a class="nav-link id28" href="#">
+          <i class="fa fa-linkedin" aria-hidden="true"></i>
+        </a>
+      </li>
+      <li class="nav-item icon-3 ">
+        <a class="nav-link id28" href="#">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+        </a>
+      </li>
+    </ul>
+
+
+    <!-- <div class="container"> -->
+    <div class="row row9">
+      <div class="col-12 col-lg-3 col13">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active id29 id32" aria-current="page" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">About Sway</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Plan & Pricing</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Blog</a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-3 col13">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active id29 id32" aria-current="page" href="#">Product</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Primary blocks
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Content blocks
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Infographic blocks
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Business blocks
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-3 col13">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active id29 id32" aria-current="page" href="#">Resources</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Support center
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Documentation
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Newsletter
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Changelog
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-lg-3 col13">
+        <ul class="nav flex-column">
+          <li class="nav-item">
+            <a class="nav-link active id29 id32" aria-current="page" href="#">Follow us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Twitter
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Dribbble
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Facebook
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link id29" href="#">Linkedin
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <!-- </div> -->
+
+    <hr style="margin-left: 40px; margin-right: 40px; margin-top: 70px; color: lightgray;">
+
+    <div class="row">
+      <div class="col-12 col14">
+        <p id="id30">Sway by KeyDesign. All Rights Reserved. </p>
+        <a class="nav-link id31" href="#">Terms of Use</a>
+        <a class="nav-link id31" href="#">Privacy Policy</a>
+
+
+      </div>
+
+
+  </footer>
+
+
+
+
+  <!-- Footer Ends Here!!! -->
+
+
+
+</body>
+
+</html>
